@@ -7,7 +7,7 @@ import { UsersDBAccess } from "../../app/Data/UsersDBAccess";
 jest.mock("../../app/Handlers/LoginHandler");
 jest.mock("../../app/Handlers/DataHandler");
 jest.mock("../../app/Authorization/Authorizer");
-jest.mock("../../app/Authorization/UsersDBAccess");
+jest.mock("../../app/Data/UsersDBAccess");
 
 const requestMock = {
   url: "",
